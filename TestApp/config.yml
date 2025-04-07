@@ -1,0 +1,14 @@
+---
+
+is_debug: true
+listen:
+  type: port
+  bind_ip: 0.0.0.0
+  port: 8000
+storage:
+  host: postgres
+  port: 5432
+  database: mydb
+  username: myuser
+  password: mypassword
+mongodb:
